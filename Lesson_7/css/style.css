@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box; /*что-то там с отступами*/
+}
+body {
+	font-family: Tahoma; /*заданный шрифт*/
+}
+.main {
+	padding: 30px 20%; /*отступ*/
+}
+.header {
+	text-align: center; /*размещение по центру*/
+	font-size: 24px; /*размер шрифта*/
+	color: #333333; /*изменение цвета*/
+}
+.header span {
+	display: block; /*заставляет вести себя как блок*/
+	margin-top: 100px; /*отступ сверху*/
+	font-weight: 300; /*жирность шрифта*/
+	margin-bottom: 20px; /*нижний отступ*/
+}
+.header p {
+	font-weight: 900; /*жирность шрифта*/
+	text-transform: uppercase; /*текст заглавными буквами*/
+}
+.main {
+	margin-top: 60px; /*отступ сверху*/
+	text-align: center;
+}
+.video, .form {
+	display: inline-block; /*застввляет вести себя как строчно-блочный*/
+	vertical-align: top; /*вертикально выравнивание по верхней линии*/
+}
+.form {
+	padding: 20px; /*отступ*/
+	border: 5px solid #2727d9; /*рамка: ширина, стиль, цвет;*/
+	text-align: center;
+	margin-left: 30px;
+}
+.form input {
+	width: 300px; /*ширина*/
+	padding: 17px; 
+	border: 1px solid #333;
+	font-size: 15px;
+	display: block;
+}
+.form p {
+	font-weight: 900;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.btn {
+	font-size: 15px;
+	color: white;
+	background-color: #2727d9;
+	border: none; /*убирает рамку*/
+	width: 300px;
+	height: 60px;
+	display: block;
+	margin: 15px auto;
+}
+.section h2 {
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-top: 150px;
+	color: #333333;
+}
+.feature {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.col {
+	display: inline-block;
+	margin: 10px 50px;
+}
+.col p {
+	font-weight: 900;
+	color: #333333;
+	margin-top: 15px;
+}
